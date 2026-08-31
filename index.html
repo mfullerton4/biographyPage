@@ -5,57 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Fullerton Biography</title>
-<!--styles-->
+    <!--styles-->
     <link rel="stylesheet" href="styles/main.css">
 
 </head>
 
 <body>
-    <main>
     <!--Navigation-->
     <nav>
-        <a href="/">Home</a>
-        <a href="crochet.html">Crocheting</a>
-        <a href="ttrpg.html">TTRPG</a>
-        <a href="coding.html">Coding</a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="Magicthegathering.html">Magic the gathering</a></li>
+            <li><a href="ttrpg.html">TTRPG</a></li>
+            <li><a href="coding.html">Coding</a></li>
+        </ul>
     </nav>
-<!--hero image-->
-<div class="hero">    
-    <img src="images/hero.jpeg" alt="Mark Fullerton with wife.">
-</div>
-
+    <!--hero image-->
+    <div class="hero">
+        <img src="images/hero.webp" alt="Mark Fullerton with wife.">
+    </div>
+    
     <!--Header-->
     <header>
         <h1>Mark Fullerton</h1>
-        <p>My name is Mark Fullerton, I am 36 years old, and I live in West Valley city Utah.<br>
-            I enjoy crocheting, table top role playing games, video games, and coding in Python, HTML, CSS, and Java
-            script.
-        </p>
-    </header>
+        <p>My name is Mark Fullerton, I am 36 years old, and I live in West Valley city Utah.</p>
+        <p>I enjoy playing magic the gathering commander, table top role playing games, video games, and coding in Python, HTML,
+            CSS, and Java
+            script.</p>
+        </header>
+        
+        <main>
+        <!--Magic the gathering -->
+        <section class="commander">
+            <h2>Magic the gathering</h2>
+            <P>I have three commander decks that I use.</P>
+        </section>
 
-    <!--Crochet -->
-    <section>
-        <h2>Crocheting</h2>
-        <P>I like to crochet plushies, usually pokemon.</P>
-    </section>
+        <!--TTRPGs-->
+        <section class="ttrpg">
+            <h2>Table Top Role playing games</h2>
+            <p>I enjoy playing games such as Pathfinder and Dungeons and Dragons</p>
+        </section>
 
-    <!--TTRPGs-->
-    <section>
-        <h2>Table Top Role playing games</h2>
-        <p>I enjoy playing games such as Pathfinder and Dungeons and Dragons</p>
-    </section>
-
-    <!--Video Games-->
-    <section>
-        <h2>Video Games</h2>
-        <p>My favorite video games are the Pokemon games. I also like rpgs and first person shooters</p>
-    </section>
-    <!--Coding-->
-    <section>
-        <h2>Coding</h2>
-        <p>I like to create websites. I also enjoy coding in Python and would like to learn java.</p>
-    </section>
+        <!--Video Games-->
+        <section class="video-games">
+            <h2>Video Games</h2>
+            <p>My favorite video games are the Pokemon games. I also like rpgs and first person shooters</p>
+        </section>
+        <!--Coding-->
+        <section class="coding">
+            <h2>Coding</h2>
+            <p>I like to create websites. I also enjoy coding in Python and would like to learn java.</p>
+        </section>
     </main>
+    <footer>
+        <p>Current Time: <span id="currentTime"></span></p>
+        <p>Current Date: <span id="currentDate"></span></p>
+    </footer>
+    <script src="scripts/time.js"></script>
 </body>
 
 </html>
