@@ -102,6 +102,95 @@ section p {
     font-size: 1.1rem;
 }
 
+/*mtg cards*/
+#cards {
+    display: grid;
+    gap: 1.5rem;
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+    background-color: var(--white);
+    border: 3px solid var(--gold);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    text-align: center;
+}
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-text{
+    font-size: 1rem;
+    color: #444;
+}
+
+/*dice roller container*/
+main h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+main label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+main input,
+main select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+main button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1rem;
+    width: 100%;
+    background: var(--gold);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+main button:hover {
+    background: var(--dark);
+}
+
+#results {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: var(--white);
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
 /*Media Queries */
 /*cell phones*/
 @media (max-width: 600px) {

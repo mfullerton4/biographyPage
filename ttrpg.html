@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Fullerton Biography</title>
+    <!--styles-->
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Mtg.html">Magic the gathering</a></li>
+            <li><a href="/">TTRPG</a></li>
+            <li><a href="coding.html">Coding</a></li>
+        </ul>
+    </nav>
+    <!--hero image-->
+    <div class="hero">
+        <img src="images/hero.webp" alt="Mark Fullerton with wife.">
+    </div>
+
+    <header>
+        <h1>Table Top Role Playing Games</h1>
+        <p>I enjoy playing table top roleplaying games such as Pathfinder and Dungeons and dragons.</p>
+    </header>
+    <main>
+        <h2>Dice roller</h2>
+
+        <label>Number of Dice</label>
+        <input type="number" id="numDice" value="1" min="1">
+
+        <label>Die Size</label>
+        <select id="dieSize">
+            <option value="4">d4</option>
+            <option value="6">d6</option>
+            <option value="8">d8</option>
+            <option value="10">d10</option>
+            <option value="12">d12</option>
+            <option value="20" selected>d20</option>
+            <option value="100">d100</option>
+        </select>
+
+        <button onclick="rollDice()">Roll</button>
+
+        <h3>Results</h3>
+        <div id="results"></div>
+    </main>
+    <footer>
+        <p>Current Time: <span id="currentTime"></span></p>
+        <p>Current Date: <span id="currentDate"></span></p>
+    </footer>
+    <script src="scripts/roll.js"></script>
+    <script src="scripts/time.js"></script>
+    </body>

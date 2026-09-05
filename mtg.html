@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Fullerton Biography</title>
+    <!--styles-->
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Magic the gathering</a></li>
+            <li><a href="ttrpg.html">TTRPG</a></li>
+            <li><a href="coding.html">Coding</a></li>
+        </ul>
+    </nav>
+    <!--hero image-->
+    <div class="hero">
+        <img src="images/hero.webp" alt="Mark Fullerton with wife.">
+    </div>
+
+<!--Header-->
+<header>
+    <h1>Magic the gathering</h1>
+<p>I play the commander format of Magic the gathering. I have three decks that I use Atarka's vanguard, Kaldheim's frozen vault, and the endless swarm.</p>
+</header>
+
+<!--main-->
+<main>
+    <div id="cards" class="cards-grid">
+
+        <div class="card">
+            <img src="images/tuya.jpg" alt="Tuya Bearclaw" class="card-img">
+            
+            <div class="card-content">
+                <h3 class="card-title">Tuya Bearclaw</h3>
+                <p class="card-text">The Commander of Atarka's vanguard.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/jorn.jpg" alt="Jorn, God of Winter" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Jorn, God of Winter</h3>
+                <p class="card-text">The commander of Kaldheim's frozen vault.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/sliver-hivelord.jpg" alt="Sliver Hivelord" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Sliver-Hivelord</h3>
+                <p class="card-text">Commander of The Endless Swarm</p>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>Current Time: <span id="currentTime"></span></p>
+    <p>Current Date: <span id="currentDate"></span></p>
+</footer>
+<script src="scripts/time.js"></script>
+</body>
