@@ -1,0 +1,76 @@
+{
+    "games": [
+        {
+            "title": "Pokemon Red & Blue",
+            "generation": 1,
+            "year": 1996,
+            "platform": "Game Boy",
+            "image": "images/red.jpg",
+            "description": "The original Pokemon adventure introducing Kanto and the first 151 Pokemon." 
+        },
+        {
+            "title": "Pokemon Gold & Silver",
+            "generation": 2,
+            "year": 1999,
+            "platform": "Game Boy Color",
+            "image": "images/gold.jpg",
+            "description": "Introduced Johto, day/night cycles, breeding, and 100 new Pokemon."
+        },
+        {
+            "title": "Pokemon Ruby & Sapphire",
+            "generation": 3,
+            "year": 2002,
+            "platform": "Game Boy Advance",
+            "image": "images/ruby.jpg",
+            "description": "Set in Hoenn with abilities, natures, and double battles."
+        },
+        {
+            "title": "Pokemon Diamond & Pearl",
+            "generation": 4,
+            "year": 2006,
+            "platform": "Nintendo DS",
+            "image": "images/diamond.jpg",
+            "description": "Introduced online trading/battling and the Sinnoh region."
+        },
+        {
+            "title": "Pokemon Black & White",
+            "generation": 5,
+            "year": 2010,
+            "platform": "Nintendo DS",
+            "image": "images/black.jpg",
+            "description": "A story driven adventure with 156 new Pokemon."
+        },
+        {
+            "title": "Pokemon X & Y",
+            "generation": 6,
+            "year": 2013,
+            "platform": "Nintendo 3DS",
+            "image": "images/x.jpg",
+            "description": "First fully 3d mainline Pokemon game, introducing Mega Evolution."
+        },
+        {
+            "title": "Pokemon Sun & Moon",
+            "generation": 7,
+            "year": 2016,
+            "platform": "Nintendo 3DS",
+            "image": "images/Sun.jpg",
+            "description": "Set in Alola with regional variants and Z-Moves."
+        },
+        {
+            "title": "Pokemon Sword & Shield",
+            "generation": 8,
+            "year": 2019,
+            "platform": "Nintendo Switch",
+            "image": "images/sword.jpg",
+            "description": "Introduced the Wild Area, Dynamax, and Galar region."
+        },
+        {
+            "title": "Pokemon Scarlet & Violet",
+            "generation": 9,
+            "year": 2022,
+            "platform": "Nintendo Switch",
+            "image": "images/scarlet.jpg",
+            "description": "Open-world Pokemon adventure set in Paldea."
+        }
+    ]
+}

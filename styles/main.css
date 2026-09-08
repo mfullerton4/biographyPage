@@ -190,6 +190,58 @@ main button:hover {
     border-radius: 5px;
     font-size: 1.2rem;
 }
+/*Modal*/
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#close-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/*games*/
+/*Game cards*/
+.game-card {
+    background: white;
+    border: 2px solid var(--gold);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
 
 /*Media Queries */
 /*cell phones*/

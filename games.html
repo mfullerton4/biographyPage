@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Fullerton Biography</title>
+    <!--styles-->
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="Mtg.html">Magic the gathering</a></li>
+            <li><a href="ttrpg.html">TTRPG</a></li>
+            <li><a href="coding.html">Coding</a></li>
+        </ul>
+    </nav>
+    <!--hero image-->
+    <div class="hero">
+        <img src="images/hero.webp" alt="Mark Fullerton with wife.">
+    </div>
+
+    <main>
+        <h1>Video Games</h1>
+        <p>I enjoy many video games but my favorite are ythe pokemon games.</p>
+        <div id="game-container" class="grid"></div>
+
+        <div id="game-modal" class="modal">
+            <div class="modal-box">
+                <span id="close-modal">&times;</span>
+                <div id="modal-content"></div>
+            </div>
+        </div>
+
+    </main>
+<footer>
+    <p>Current Time: <span id="currentTime"></span></p>
+    <p>Current Date: <span id="currentDate"></span></p>
+</footer>
+<script src="scripts/time.js"></script>
+    <script type="module" src="scripts/pokemon.js" defer></script>
+</body>
+</html>
